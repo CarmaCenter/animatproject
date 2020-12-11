@@ -1,0 +1,284 @@
+/*--start-general--*/
+
+body {
+   font-family: "arial";
+}
+
+hr {
+   background: #ddd;
+   background-size: cover;
+   width: 100%;
+}
+
+.clear {
+   clear: both;
+}
+
+h4 {
+   color: #444;
+}
+
+p {
+   color: #666;
+   line-height: 1.7;
+   text-transform: capitalize;
+   font-size: 100%;
+}
+
+i:hover {
+   transform: scale(1.2);
+   cursor: pointer;
+}
+
+img {
+   cursor: pointer;
+}
+
+/*--end-general--*/
+
+/*--start-fream Work--*/
+
+.pd-y {
+   padding: 70px 0;
+}
+
+.btn {
+   border-radius: 20px;
+   border: 1px solid #ddd;
+   text-transform: uppercase;
+   font-weight: 500;
+   color: #666;
+   padding: 5px 20px;
+   margin-bottom: 50px;
+}
+
+.carousel slide {
+   height: 200px;
+}
+
+.btn:hover {
+   border: none;
+}
+
+.btn-valid {
+   color: aqua;
+   text-align: center;
+}
+
+.btn-valid button {
+   width: 60%;
+   margin-top: 80px;
+}
+
+.end-btn {
+   text-align: center;
+}
+
+.valid-page {
+   background-color: darkslategray;
+}
+
+/*--end-fream Work--*/
+
+/*--start-nav--*/
+
+.navbar {
+   background: rgba(0, 0, 0, 0.562);
+   border: 0;
+   text-transform: uppercase;
+}
+
+.navbar .navbar-brand {
+   color: #f7f7f7;
+   font-weight: bold;
+}
+
+.navbar-nav {
+   text-align: center;
+}
+
+.navbar .navbar-brand:focus, .navbar .navbar-brand:hover {
+   color: #7eabcf;
+}
+
+.navbar .navbar-nav .nav-item a {
+   font-size: 18px;
+   color: #fff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+   font-size: 18px;
+   color: #7eabcf;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+   color: #7eabcf;
+}
+
+/*--end-nav--*/
+
+/*--start-header--*/
+
+.carousel .carousel-item img {
+   max-height: 100vh;
+}
+
+.carousel-inner {
+   position: relative;
+}
+
+.overlay {
+   position: absolute;
+   background-color: rgba(128, 128, 128, 0.493);
+   width: 100%;
+   height: 100%;
+}
+
+/*--end-header--*/
+
+/*--start-about--*/
+
+.about-item1-title {
+   font-size: 30px;
+   color: #7eabcf;
+   font-family: arial;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.led {
+   margin-top: 2%;
+}
+
+.about-item2-content2a p {
+   font-size: 14px;
+   font-weight: 500;
+}
+
+.about-item2-content1 {
+   background-image: url("../images/IMG_27042020_051017_(1200_x_550_pixel).jpg");
+   background-size: cover;
+   height: 358px;
+   position: relative;
+   background-attachment: fixed;
+   margin-top: 40px;
+}
+
+.about-item2-content1 p {
+   font-size: 14px;
+   color: #fff;
+   position: absolute;
+   bottom: 0;
+   padding: 10px;
+   background: rgba(0, 0, 0, .6)
+}
+
+.about-item2 {
+   margin-top: 2em;
+}
+
+.about-item2-content2 {
+   margin-top: 2em;
+   overflow: hidden;
+}
+
+.abimg {
+   margin: 10px;
+}
+
+/*--end-about--*/
+
+/*--start-service--*/
+
+.service {
+   background-image: url("../images/IMG_27042020_051058_(1200_x_550_pixel).jpg");
+   height: 400px;
+   width: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+.service-title {
+   border: 1px solid #fff;
+   color: #fff;
+   padding: 25px;
+   margin-top: 150px;
+   display: inline-block;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   border-radius: 15px;
+   background: rgba(0, 0, 0, .6)
+}
+
+/*--start-items--*/
+
+.items {
+   background: #eee;
+}
+
+.item-title {
+   color: #7eabcf;
+   text-transform: uppercase;
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.item-subtitle {
+   font-size: 14px;
+}
+
+.item .logo {
+   color: #7eabcf;
+}
+
+/*--end-items--*/
+
+/*--start-contact--*/
+
+.title-form {
+   color: #7eabcf;
+   margin-bottom: 15px;
+   text-decoration: underline;
+}
+
+.frn, .lsn {
+   margin-bottom: 15px;
+}
+
+.btn-contact {
+   background-color: #7eabcf;
+   color: #fff;
+}
+
+.btn-contact:hover {
+   background-color: transparent;
+   color: #7eabcf;
+   border: 1px solid #7eabcf;
+}
+
+/*--end-contact--*/
+
+/*--start-footer--*/
+
+.footer {
+   background: #666;
+}
+
+.footer p {
+   color: #fff;
+}
+
+.footer i {
+   color: #7eabcf;
+   border: 1px solid transparent;
+   border-radius: 50%;
+   width: 60px;
+   height: 60px;
+   text-align: center;
+   line-height: 60px;
+   margin: 8px;
+   background: rgba(0, 0, 0, .6)
+}
+
+/*--end-footer--*/
